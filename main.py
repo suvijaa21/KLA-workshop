@@ -4,7 +4,7 @@ print (now.strftime("%Y-%m-%d %H:%M:%S"),end="")
 print("000000")
 import yaml
 
-with open(r'C:\Users\DELL\Downloads\DataSet\Examples\Milestone1\Milestone1_Example.yaml') as file:
+with open(r'C:\Users\DELL\Downloads\DataSet\Milestone1\Milestone1A.yaml') as file:
     documents = yaml.full_load(file)
     # for i in documents.keys():
     #     print(i)
